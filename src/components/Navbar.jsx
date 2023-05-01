@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div>
@@ -8,14 +10,17 @@ const Navbar = () => {
           className="w-24 h-16"
         />
         <div className="flex items-center im text-3xl text-white gap-10 px-6">
-          <h1>Home</h1>
+          <Link to="/">
+            <h1>Home</h1>
+          </Link>
           <h1>Gallery</h1>
           <h1>Crew</h1>
           <h1>History</h1>
-          <h1>Support Us</h1>
+          <Link to="/support">
+            <h1>Support Us</h1>
+          </Link>
         </div>
       </nav>
-      <div className="h-2 w-full bg-black"></div>
     </div>
   );
 };
