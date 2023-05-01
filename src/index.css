@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.im {
+  font-family: "IM Fell DW Pica SC", serif;
+}
+
+.kro {
+  font-family: "Krona One", sans-serif;
+}
+
+.lus {
+  font-family: "Lusitana", serif;
+}
