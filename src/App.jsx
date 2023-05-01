@@ -4,6 +4,7 @@ import Main from "./pages/Main";
 import Support from "./pages/Support";
 import History from "./pages/History";
 import Crew from "./pages/Crew";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -16,6 +17,15 @@ function App() {
               <>
                 <Navbar />
                 <Main />
+              </>
+            }
+          />
+          <Route
+            path="/gallery"
+            element={
+              <>
+                <Navbar />
+                <Gallery />
               </>
             }
           />
