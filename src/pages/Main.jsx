@@ -5,7 +5,7 @@ const Main = () => {
   };
   useEffect(() => {
     const onRender = async () => {
-      await delay(1500);
+      await delay(1000);
       const introImg = document.getElementById("introImg");
       introImg.classList.remove("w-0");
       introImg.classList.add("w-[350px]");
