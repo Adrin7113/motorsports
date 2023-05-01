@@ -6,6 +6,9 @@ export default {
       transitionDuration: {
         2000: "2000ms",
       },
+      backgroundImage: {
+        hero: "url('/historyEnd.webp')",
+      },
     },
   },
   plugins: [],

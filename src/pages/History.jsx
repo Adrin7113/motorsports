@@ -49,7 +49,7 @@ const History = () => {
       </div>
 
       {/* Footer */}
-      <div className="h-[800px] relative p-16 pt-32 flex items-end">
+      <div className=" relative p-16 pt-44 flex items-end  ">
         <img
           src="/historyEnd.webp"
           className="w-full h-full absolute top-0 left-0"
