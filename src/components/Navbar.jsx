@@ -14,8 +14,12 @@ const Navbar = () => {
             <h1>Home</h1>
           </Link>
           <h1>Gallery</h1>
-          <h1>Crew</h1>
-          <h1>History</h1>
+          <Link to="/crew">
+            <h1>Crew</h1>
+          </Link>
+          <Link to="/history">
+            <h1>History</h1>
+          </Link>
           <Link to="/support">
             <h1>Support Us</h1>
           </Link>
