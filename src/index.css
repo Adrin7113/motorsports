@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,4 +21,8 @@
 
 .ice {
   font-family: "Iceland", cursive;
+}
+
+.iri {
+  font-family: "Inria Sans", sans-serif;
 }

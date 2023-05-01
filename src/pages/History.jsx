@@ -52,7 +52,7 @@ const History = () => {
       <div className=" relative p-16 pt-44 flex items-end  ">
         <img
           src="/historyEnd.webp"
-          className="w-full h-full absolute top-0 left-0"
+          className="w-full h-full absolute top-0 left-0 "
         />
         <div className="h-5/6 w-[600px] bg-white/20 relative z-20">
           <h1 className="text-xl lus font-medium p-4 text-white">
