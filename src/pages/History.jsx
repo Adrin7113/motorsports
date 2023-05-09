@@ -9,7 +9,7 @@ const History = () => {
   return (
     <div className="min-h-screen">
       {/* Collage */}
-      <div className="h-[800px] bg-red-400 flex">
+      <div className="h-[800px] flex">
         <div
           id="carName"
           className="bg-black/70 h-[300px] w-full absolute top-80 z-[20] flex justify-center items-center transition-all ease-in-out opacity-0 duration-2000"
