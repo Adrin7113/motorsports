@@ -3,14 +3,11 @@ const Crew = () => {
     <div className="min-h-screen ">
       {/* Team Intro */}
 
-      <div className="h-[800px] relative flex items-end p-16">
-        <img
-          src="/teamIntro.webp"
-          className="w-full h-full absolute top-0 left-0"
-        />
+      <div className="h-[1000px] relative flex items-end p-16">
+        <img src="/crew.png" className="w-full h-full absolute top-0 left-0" />
         <div className="h-1/2 w-[350px] bg-white/20 relative z-20 flex flex-col justify-center text-black">
-          <h1 className="text-3xl ice font-bold text-center">Meet The Crew</h1>
-          <h1 className="text-xl ice font-medium p-4">
+          <h1 className="text-3xl dm font-bold text-center">Meet The Crew</h1>
+          <h1 className="text-xl ya font-bold p-4">
             Our crew consists of interdisciplinary students who are keen to put
             in their theoretical knowledge into practice to build an efficient
             ev go kart. Within this team we have a group for marketing,
@@ -25,12 +22,12 @@ const Crew = () => {
           src="/v.webp"
           className="w-full h-full absolute top-0 left-0 z-[-10]"
         />
-        <h1 className="ice text-7xl text-center text-white">Team Lead</h1>
+        <h1 className="dm text-7xl text-center text-white">Team Lead</h1>
         <div className="h-full w-full flex ">
           <div className="w-1/2 h-full flex flex-col justify-center items-center gap-5">
             <img src="/leadOne.webp" className="w-44 h-44" />
-            <h1 className="text-4xl ice">Captain</h1>
-            <h1 className="text-4xl iri">Laveena Wels</h1>
+            <h1 className="text-4xl dm">Captain</h1>
+            <h1 className="text-4xl ya">Laveena Wels</h1>
             <img
               src="/linkedIn.webp"
               alt="The LinkedIn Logo"
@@ -39,8 +36,8 @@ const Crew = () => {
           </div>
           <div className="w-1/2 h-full flex flex-col justify-center items-center gap-5">
             <img src="/leadTwo.webp" className="w-44 h-44" />
-            <h1 className="text-4xl ice">Vice Captain</h1>
-            <h1 className="text-4xl iri">Malavika NR</h1>
+            <h1 className="text-4xl dm">Vice Captain</h1>
+            <h1 className="text-4xl ya">Malavika NR</h1>
             <img
               src="/linkedIn.webp"
               alt="The LinkedIn Logo"
@@ -51,7 +48,7 @@ const Crew = () => {
       </div>
       {/* Our Team Graph*/}
       <img
-        src="ourTeam.webp"
+        src="ourTeam.png"
         alt="A graph depicting our team"
         className="h-[600px] w-screen"
       />
@@ -62,7 +59,7 @@ const Crew = () => {
       <div className=" bg-[#750000] text-white pt-32">
         {/* Design */}
         <div className="flex flex-col items-center pb-32">
-          <h1 className="text-5xl iri pb-10">Design</h1>
+          <h1 className="text-5xl dm pb-10">Design</h1>
           <div className="flex gap-5 w-full">
             <div className=" w-1/3 flex flex-col items-center gap-5">
               <img
@@ -70,7 +67,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Vaibhav Krishna</h1>
+              <h1 className="ya text-2xl">Vaibhav Krishna</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -83,7 +80,7 @@ const Crew = () => {
                 alt="Design Guy Two"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Athul T Sajeevan</h1>
+              <h1 className="ya text-2xl">Athul T Sajeevan</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -96,7 +93,7 @@ const Crew = () => {
                 alt="Design Guy Three"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Albin T Biju</h1>
+              <h1 className="ya text-2xl">Albin T Biju</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -108,7 +105,7 @@ const Crew = () => {
 
         {/* Analysis */}
         <div className="flex flex-col items-center pb-32">
-          <h1 className="text-5xl iri pb-10">Analysis</h1>
+          <h1 className="text-5xl dm pb-10">Analysis</h1>
           <div className="flex gap-5 w-full">
             <div className=" w-1/2 flex flex-col items-center gap-5">
               <img
@@ -116,7 +113,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Abhinand Rajesh</h1>
+              <h1 className="ya text-2xl">Abhinand Rajesh</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -129,7 +126,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Febin Thomas</h1>
+              <h1 className="ya text-2xl">Febin Thomas</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -141,7 +138,7 @@ const Crew = () => {
 
         {/* Materials and Bodyworks */}
         <div className="flex flex-col items-center pb-32">
-          <h1 className="text-5xl iri pb-10">Materials and Bodyworks</h1>
+          <h1 className="text-5xl dm pb-10">Materials and Bodyworks</h1>
           <div className="flex gap-5 w-full">
             <div className=" w-1/2 flex flex-col items-center gap-5">
               <img
@@ -149,7 +146,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Nandu Rajeev</h1>
+              <h1 className="ya text-2xl">Nandu Rajeev</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -162,7 +159,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Midhul Manoj</h1>
+              <h1 className="ya text-2xl">Midhul Manoj</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -174,7 +171,7 @@ const Crew = () => {
 
         {/* High Voltage System */}
         <div className="flex flex-col items-center pb-32">
-          <h1 className="text-5xl iri pb-10">High Voltage System</h1>
+          <h1 className="text-5xl dm pb-10">High Voltage System</h1>
           <div className="flex gap-5 w-full">
             <div className=" w-1/2 flex flex-col items-center gap-5">
               <img
@@ -182,7 +179,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Anantha Krishnan</h1>
+              <h1 className="ya text-2xl">Anantha Krishnan</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -195,7 +192,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Prithviraj K </h1>
+              <h1 className="ya text-2xl">Prithviraj K </h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -207,7 +204,7 @@ const Crew = () => {
 
         {/* Low Voltage System */}
         <div className="flex flex-col items-center pb-32">
-          <h1 className="text-5xl iri pb-10">Low Voltage System</h1>
+          <h1 className="text-5xl dm pb-10">Low Voltage System</h1>
           <div className="flex gap-5 w-full">
             <div className=" w-1/3 flex flex-col items-center gap-5">
               <img
@@ -215,7 +212,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">T Anandhakrishnan</h1>
+              <h1 className="ya text-2xl">T Anandhakrishnan</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -228,7 +225,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Navneeth Menon</h1>
+              <h1 className="ya text-2xl">Navneeth Menon</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -241,7 +238,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Nirosh Ebby Mathew</h1>
+              <h1 className="ya text-2xl">Nirosh Ebby Mathew</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -253,7 +250,7 @@ const Crew = () => {
 
         {/* Protective Equipments */}
         <div className="flex flex-col items-center pb-32">
-          <h1 className="text-5xl iri pb-10">Protective Equipments</h1>
+          <h1 className="text-5xl dm pb-10">Protective Equipments</h1>
           <div className="flex gap-5 w-full">
             <div className=" w-1/2 flex flex-col items-center gap-5">
               <img
@@ -261,7 +258,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Malavika N R</h1>
+              <h1 className="ya text-2xl">Malavika N R</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -274,7 +271,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Sudhev Pradeep</h1>
+              <h1 className="ya text-2xl">Sudhev Pradeep</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -286,7 +283,7 @@ const Crew = () => {
 
         {/* Marketing */}
         <div className="flex flex-col items-center pb-32">
-          <h1 className="text-5xl iri pb-10">Marketing</h1>
+          <h1 className="text-5xl dm pb-10">Marketing</h1>
           <div className="flex gap-5 w-full">
             <div className="flex flex-col gap-20 w-1/3">
               <div className=" w-full flex flex-col items-center gap-5">
@@ -295,7 +292,7 @@ const Crew = () => {
                   alt="Design Guy One"
                   className="w-28 h-28"
                 />
-                <h1 className="iri text-2xl">Laveena Wels</h1>
+                <h1 className="ya text-2xl">Laveena Wels</h1>
                 <img
                   src="/linkedIn.webp"
                   alt="The LinkedIn Logo"
@@ -308,7 +305,7 @@ const Crew = () => {
                   alt="Design Guy One"
                   className="w-28 h-28"
                 />
-                <h1 className="iri text-2xl">Febin Thomas</h1>
+                <h1 className="ya text-2xl">Febin Thomas</h1>
                 <img
                   src="/linkedIn.webp"
                   alt="The LinkedIn Logo"
@@ -324,7 +321,7 @@ const Crew = () => {
                   alt="Design Guy One"
                   className="w-28 h-28"
                 />
-                <h1 className="iri text-2xl">Roshan Prince</h1>
+                <h1 className="ya text-2xl">Roshan Prince</h1>
                 <img
                   src="/linkedIn.webp"
                   alt="The LinkedIn Logo"
@@ -340,7 +337,7 @@ const Crew = () => {
                   alt="Design Guy One"
                   className="w-28 h-28"
                 />
-                <h1 className="iri text-2xl">Malavika NR</h1>
+                <h1 className="ya text-2xl">Malavika NR</h1>
                 <img
                   src="/linkedIn.webp"
                   alt="The LinkedIn Logo"
@@ -353,7 +350,7 @@ const Crew = () => {
                   alt="Design Guy One"
                   className="w-28 h-28"
                 />
-                <h1 className="iri text-2xl">Sudhev P</h1>
+                <h1 className="ya text-2xl">Sudhev P</h1>
                 <img
                   src="/linkedIn.webp"
                   alt="The LinkedIn Logo"
@@ -366,7 +363,7 @@ const Crew = () => {
 
         {/* Website Design */}
         <div className="flex flex-col items-center pb-32">
-          <h1 className="text-5xl iri pb-10">Web Design</h1>
+          <h1 className="text-5xl dm pb-10">Web Design</h1>
           <div className="flex gap-5 w-full">
             <div className=" w-1/3 flex flex-col items-center gap-5">
               <img
@@ -374,7 +371,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Roshan Prince</h1>
+              <h1 className="ya text-2xl">Roshan Prince</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -387,7 +384,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28 rounded-full"
               />
-              <h1 className="iri text-2xl">Adrin Jose</h1>
+              <h1 className="ya text-2xl">Adrin Jose</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"
@@ -400,7 +397,7 @@ const Crew = () => {
                 alt="Design Guy One"
                 className="w-28 h-28"
               />
-              <h1 className="iri text-2xl">Malavika NR</h1>
+              <h1 className="ya text-2xl">Malavika NR</h1>
               <img
                 src="/linkedIn.webp"
                 alt="The LinkedIn Logo"

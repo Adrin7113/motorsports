@@ -1,13 +1,26 @@
+import { useEffect } from "react";
+
 const History = () => {
+  useEffect(() => {
+    const carName = document.getElementById("carName");
+    carName.classList.remove("opacity-0");
+    carName.classList.add("opacity-100");
+  }, []);
   return (
     <div className="min-h-screen">
       {/* Collage */}
       <div className="h-[800px] bg-red-400 flex">
-        <img src="/collage.webp" alt="A Collage" className="w-full" />
+        <div
+          id="carName"
+          className="bg-black/70 h-[300px] w-full absolute top-80 z-[20] flex justify-center items-center transition-all ease-in-out opacity-0 duration-2000"
+        >
+          <h1 className="dm text-9xl text-white">Aethon.v1</h1>
+        </div>
+        <img src="/collage.png" alt="A Collage" className="w-full" />
       </div>
       {/* Founders */}
       <div className="h-[800px] flex flex-col items-center pt-16 justify-center">
-        <h1 className="ice text-7xl pb-10">Founders</h1>
+        <h1 className="dm text-7xl pb-10">Founders</h1>
         <div className="h-full w-full flex justify-center">
           <div className="flex flex-col items-center h-full w-1/6 justify-center">
             <img
@@ -15,8 +28,8 @@ const History = () => {
               alt="Image of our first founder"
               className="w-44 h-44 pb-5"
             />
-            <h1 className="ice text-2xl text-center">Nobel Saju</h1>
-            <h1 className="ice text-2xl text-center">Vice Captian</h1>
+            <h1 className="dm text-2xl text-center">Nobel Saju</h1>
+            <h1 className="dm text-2xl text-center">Vice Captian</h1>
           </div>
           <div className="flex flex-col justify-center items-center h-full w-1/6 gap-20">
             <div>
@@ -25,8 +38,8 @@ const History = () => {
                 alt="Image of our second founder"
                 className="w-44 h-44 pb-5"
               />
-              <h1 className="ice text-2xl text-center">Roshan Prince</h1>
-              <h1 className="ice text-2xl text-center">Captian</h1>
+              <h1 className="dm text-2xl text-center">Roshan Prince</h1>
+              <h1 className="dm text-2xl text-center">Captian</h1>
             </div>
             <div>
               <img
@@ -34,7 +47,7 @@ const History = () => {
                 alt="Image of our third founder"
                 className="w-44 h-44 pb-5"
               />
-              <h1 className="ice text-2xl text-center">Rohith Venu</h1>
+              <h1 className="dm text-2xl text-center">Rohith Venu</h1>
             </div>
           </div>
           <div className="flex flex-col items-center h-full w-1/6 justify-center">
@@ -43,19 +56,19 @@ const History = () => {
               alt="Image of our fourth founder"
               className="w-44 h-44 pb-5"
             />
-            <h1 className="ice text-2xl text-center">Ayyappadas NP</h1>
+            <h1 className="dm text-2xl text-center">Ayyappadas NP</h1>
           </div>
         </div>
       </div>
 
       {/* Footer */}
-      <div className=" relative p-16 pt-44 flex items-end  ">
+      <div className="relative p-16 pt-44 flex items-end  ">
         <img
-          src="/historyEnd.webp"
+          src="/historyEnd.png"
           className="w-full h-full absolute top-0 left-0 "
         />
         <div className="h-5/6 w-[600px] bg-white/20 relative z-20">
-          <h1 className="text-xl lus font-medium p-4 text-white">
+          <h1 className="text-xl ya font-medium p-4 text-white">
             It all began with a casual conversation between Nobel and a friend
             from a different college who had formed a go-kart team. Fascinated
             by the idea, Nobel shared it with me. I recall he brought it up
@@ -73,7 +86,7 @@ const History = () => {
             and instant gratification to achieve this long-term goal. Now i look
             forward to my juniors to take this club to greater heights.
           </h1>
-          <h1 className="text-lg lus font-medium text-right pr-5 text-white">
+          <h1 className="text-lg dm font-medium text-right pr-5 text-white">
             -Roshan Prince
           </h1>
         </div>

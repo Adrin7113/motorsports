@@ -2,9 +2,9 @@ const Support = () => {
   return (
     <div className="min-h-screen">
       {/*Support */}
-      <div className="h-[500px] ice flex items-center pt-16 flex-col">
-        <h1 className="text-5xl  w-1/2 text-center">Support Us</h1>
-        <p className="text-2xl font-medium w-2/3 pt-16">
+      <div className="h-[500px] flex items-center pt-16 flex-col">
+        <h1 className="text-5xl dm w-1/2 text-center">Support Us</h1>
+        <p className="text-2xl ya font-bold w-2/3 pt-16">
           Sponsoring our electric go kart project offers numerous benefits for
           companies looking to increase their visibility and reputation. We plan
           to feature our sponsors prominently on our website, social media
@@ -19,7 +19,7 @@ const Support = () => {
       </div>
       {/*Social Media */}
       <div className="h-[400px]  ice flex items-center pt-16 flex-col">
-        <h1 className="text-5xl   w-1/2 text-center">Social Media Handles</h1>
+        <h1 className="text-5xl dm  w-1/2 text-center">Social Media Handles</h1>
         <div className="pt-16 flex gap-20">
           <img src="/linkedIn.webp" alt="LinkedIn Logo" className="w-24 h-24" />
           <img src="/yt.webp" alt="LinkedIn Logo" className="w-24 h-24" />
@@ -27,7 +27,7 @@ const Support = () => {
         </div>
       </div>
       {/*Contact */}
-      <div className="h-[425px] bg-black ice text-white flex pt-16 flex-col pl-16 gap-5">
+      <div className="h-[425px] bg-black dm text-white flex pt-16 flex-col pl-16 gap-5">
         <h1 className="text-5xl ">Contact Us</h1>
         <div className="flex gap-5 items-center">
           <img src="/phone.webp" alt="An icon of a phone" className="w-8 h-8" />

@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="h-16 bg-[#A91313] flex items-center justify-between">
+      <nav className="h-28 bg-[#A91313] flex items-center justify-between">
         <img
-          src="/logo.webp"
+          src="/logo.png"
           alt="The logo in the navbar"
-          className="w-24 h-16"
+          className="w-44 h-full"
         />
-        <div className="flex items-center im text-3xl text-white gap-10 px-6">
+        <div className="flex items-center dm text-3xl text-white gap-10 px-6">
           <Link to="/">
             <h1>Home</h1>
           </Link>

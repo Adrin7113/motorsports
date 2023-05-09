@@ -1,28 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Ysabeau&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.im {
-  font-family: "IM Fell DW Pica SC", serif;
+.ya {
+  font-family: "Ysabeau", sans-serif;
 }
 
-.kro {
-  font-family: "Krona One", sans-serif;
-}
-
-.lus {
-  font-family: "Lusitana", serif;
-}
-
-.ice {
-  font-family: "Iceland", cursive;
-}
-
-.iri {
-  font-family: "Inria Sans", sans-serif;
+.dm {
+  font-family: "DM Sans", sans-serif;
 }
