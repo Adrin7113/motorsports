@@ -7,8 +7,13 @@ const Main = () => {
     const onRender = async () => {
       await delay(1000);
       const introImg = document.getElementById("introImg");
+      const fadeIn = document.getElementsByClassName("fadeIn");
+      for (let i = 0; i < fadeIn.length; i++) {
+        fadeIn[i].classList.remove("opacity-0");
+        fadeIn[i].classList.add("opacity-100");
+      }
       introImg.classList.remove("w-0");
-      introImg.classList.add("w-[350px]");
+      introImg.classList.add("w-[320px]");
     };
     onRender();
   }, []);
@@ -33,7 +38,7 @@ const Main = () => {
         />
         <div className="bg-black/70 absolute top-0 left-0 w-full h-full"></div>
         <div className="relative z-20 flex items-center gap-5">
-          <div className="relative w-[350px] h-[250px]">
+          <div className="relative w-[320px] h-[250px] flex justify-center">
             <div
               id="introImg"
               className="w-0 h-[250px] bg-[#DB2222] absolute right-0  transition-all  duration-2000"
@@ -41,14 +46,20 @@ const Main = () => {
             <img
               src="/logo.png"
               alt="The logo"
-              className="w-[350px] h-[250px] absolute left-0"
+              className="w-[320px] h-[250px] absolute left-0"
             />
           </div>
           <div className="flex flex-col gap-5 dm text-white text-7xl">
-            <h1>MITS</h1>
-            <h1>MotorSports</h1>
+            <h1 className="fadeIn opacity-0 transition-opacity ease-in-out duration-2000">
+              MITS
+            </h1>
+            <h1 className="fadeIn opacity-0 transition-opacity ease-in-out duration-2000">
+              MotorSports
+            </h1>
             <div className="w-full flex justify-end text-3xl">
-              <h1>Engineered to win</h1>
+              <h1 className="fadeIn opacity-0 transition-opacity ease-in-out duration-2000">
+                Engineered to win
+              </h1>
             </div>
           </div>
         </div>

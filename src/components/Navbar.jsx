@@ -22,6 +22,9 @@ const Navbar = () => {
           <Link to="/history">
             <h1>History</h1>
           </Link>
+          <Link to="/sponsors">
+            <h1>Sponsors</h1>
+          </Link>
           <Link to="/support">
             <h1>Support Us</h1>
           </Link>

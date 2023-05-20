@@ -22,8 +22,8 @@ const Support = () => {
         <h1 className="text-5xl dm  w-1/2 text-center">Social Media Handles</h1>
         <div className="pt-16 flex gap-20">
           <img src="/linkedIn.webp" alt="LinkedIn Logo" className="w-24 h-24" />
-          <img src="/yt.webp" alt="LinkedIn Logo" className="w-24 h-24" />
-          <img src="/insta.webp" alt="LinkedIn Logo" className="w-24 h-24" />
+          <img src="/yt.webp" alt="Youtube Logo" className="w-32 h-24" />
+          <img src="/insta.webp" alt="Instagram Logo" className="w-24 h-24" />
         </div>
       </div>
       {/*Contact */}

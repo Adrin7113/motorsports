@@ -5,6 +5,7 @@ import Support from "./pages/Support";
 import History from "./pages/History";
 import Crew from "./pages/Crew";
 import Gallery from "./pages/Gallery";
+import Sponsors from "./pages/Sponsors";
 
 function App() {
   return (
@@ -44,6 +45,15 @@ function App() {
               <>
                 <Navbar />
                 <History />
+              </>
+            }
+          />
+          <Route
+            path="/sponsors"
+            element={
+              <>
+                <Navbar />
+                <Sponsors />
               </>
             }
           />
