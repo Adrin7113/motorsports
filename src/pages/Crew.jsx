@@ -5,7 +5,7 @@ const Crew = () => {
 
       <div className="h-[1000px] relative flex items-end p-16">
         <img src="/crew.png" className="w-full h-full absolute top-0 left-0" />
-        <div className="h-1/2 w-[350px] bg-white/20 relative z-20 flex flex-col justify-center text-black">
+        <div className="h-1/2 w-[350px] bg-white/50 relative z-20 flex flex-col justify-center text-black">
           <h1 className="text-3xl dm font-bold text-center">Meet The Crew</h1>
           <h1 className="text-xl ya font-bold p-4">
             Our crew consists of interdisciplinary students who are keen to put

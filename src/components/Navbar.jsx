@@ -7,26 +7,26 @@ const Navbar = () => {
         <img
           src="/logo.png"
           alt="The logo in the navbar"
-          className="w-44 h-full"
+          className="w-32 h-full"
         />
         <div className="flex items-center dm text-3xl text-white gap-10 px-6">
           <Link to="/">
-            <h1>Home</h1>
+            <h1 className="hover:scale-105 hover:text-white/80">Home</h1>
           </Link>
           <Link to="/gallery">
-            <h1>Gallery</h1>
+            <h1 className="hover:scale-105 hover:text-white/80">Gallery</h1>
           </Link>
           <Link to="/crew">
-            <h1>Crew</h1>
+            <h1 className="hover:scale-105 hover:text-white/80">Crew</h1>
           </Link>
           <Link to="/history">
-            <h1>History</h1>
+            <h1 className="hover:scale-105 hover:text-white/80">History</h1>
           </Link>
           <Link to="/sponsors">
-            <h1>Sponsors</h1>
+            <h1 className="hover:scale-105 hover:text-white/80">Sponsors</h1>
           </Link>
           <Link to="/support">
-            <h1>Support Us</h1>
+            <h1 className="hover:scale-105 hover:text-white/80">Support Us</h1>
           </Link>
         </div>
       </nav>
