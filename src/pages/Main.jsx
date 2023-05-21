@@ -49,7 +49,7 @@ const Main = () => {
               className="w-[320px] h-[250px] absolute left-0"
             />
           </div>
-          <div className="flex flex-col gap-5 dm text-white text-7xl">
+          <div className="flex flex-col gap-5 mont font-bold text-white text-7xl">
             <h1 className="fadeIn opacity-0 transition-opacity ease-in-out duration-2000">
               MITS
             </h1>
@@ -67,20 +67,20 @@ const Main = () => {
       {/*Second Image */}
       <div
         onMouseEnter={() => textOne()}
-        className="max-w-screen h-[900px] relative flex  p-16"
+        className="max-w-screen  relative flex  p-16"
       >
         <img
-          src="/introTwo.png"
+          src="/introTwo.jpg"
           className="w-full h-full absolute top-0 left-0"
         />
         <div
           id="textOne"
-          className="h-full w-[600px] bg-white/60 relative z-20 p-16 opacity-0 transition-all ease-in-out duration-2000"
+          className="h-full w-[600px] rounded-3xl bg-black/60 text-white relative z-20 p-16 opacity-0 transition-all ease-in-out duration-2000"
         >
-          <h1 className="text-4xl dm text-[#D71B1B] font-bold">
+          <h1 className="text-4xl mont text-[#D71B1B] font-bold">
             Muthoot Institute of Technology And Science
           </h1>
-          <h1 className="text-xl ya font-bold pt-10">
+          <h1 className="text-xl mont pt-10">
             Muthoot Institute of Technology and Science (MITS) is promoted by
             Muthoot M. George Institute of Technology, a Section 25 Company
             within the Muthoot Group. MITS is a self financing technical
@@ -110,12 +110,12 @@ const Main = () => {
         />
         <div
           id="textTwo"
-          className="h-full w-[600px] bg-white/60 relative z-20 p-16 opacity-0 transition-all ease-in-out duration-2000"
+          className="h-full w-[600px] rounded-3xl bg-black/60 text-white relative z-20 p-16 opacity-0 transition-all ease-in-out duration-2000"
         >
-          <h1 className="text-4xl dm text-black text-center font-bold">
+          <h1 className="text-4xl mont text-white text-center font-bold">
             About
           </h1>
-          <h1 className="text-xl ya font-bold pt-2">
+          <h1 className="text-lg mont pt-2">
             We are a group of passionate students who share a common interest in
             motorsports and engineering. Our mission is to design, build, and
             race electric go-karts that are both efficient and exciting to

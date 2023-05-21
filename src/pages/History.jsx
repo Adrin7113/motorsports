@@ -14,13 +14,13 @@ const History = () => {
           id="carName"
           className="bg-black/70 h-[300px] w-full absolute top-80 z-[20] flex justify-center items-center transition-all ease-in-out opacity-0 duration-2000"
         >
-          <h1 className="dm text-9xl text-white">Aethon.v1</h1>
+          <h1 className="mont font-bold text-9xl text-white">Aethon.v1</h1>
         </div>
         <img src="/collage.png" alt="A Collage" className="w-full" />
       </div>
       {/* Founders */}
       <div className="h-[800px] flex flex-col items-center pt-16 justify-center">
-        <h1 className="dm text-7xl pb-10">Founders</h1>
+        <h1 className="mont font-bold text-7xl pb-10">Founders</h1>
         <div className="h-full w-full flex justify-center">
           <div className="flex flex-col items-center h-full w-1/6 justify-center">
             <img
@@ -28,8 +28,10 @@ const History = () => {
               alt="Image of our first founder"
               className="w-44 h-44 pb-5"
             />
-            <h1 className="dm text-2xl text-center">Nobel Saju</h1>
-            <h1 className="dm text-lg text-center font-light">Vice Captian</h1>
+            <h1 className="mont font-bold text-2xl text-center">Nobel Saju</h1>
+            <h1 className="mont text-lg text-center font-light">
+              Vice Captain
+            </h1>
           </div>
           <div className="flex flex-col justify-center items-center h-full w-1/6 gap-20">
             <div>
@@ -38,8 +40,10 @@ const History = () => {
                 alt="Image of our second founder"
                 className="w-44 h-44 pb-5"
               />
-              <h1 className="dm text-2xl text-center">Roshan Prince</h1>
-              <h1 className="dm text-lg text-center font-light">Captian</h1>
+              <h1 className="mont font-bold text-2xl text-center">
+                Roshan Prince
+              </h1>
+              <h1 className="mont text-lg text-center font-light">Captain</h1>
             </div>
             <div>
               <img
@@ -47,7 +51,9 @@ const History = () => {
                 alt="Image of our third founder"
                 className="w-44 h-44 pb-5"
               />
-              <h1 className="dm text-2xl text-center">Rohith Venu</h1>
+              <h1 className="mont font-bold text-2xl text-center">
+                Rohith Venu
+              </h1>
             </div>
           </div>
           <div className="flex flex-col items-center h-full w-1/6 justify-center">
@@ -56,7 +62,9 @@ const History = () => {
               alt="Image of our fourth founder"
               className="w-44 h-44 pb-5"
             />
-            <h1 className="dm text-2xl text-center">Ayyappadas NP</h1>
+            <h1 className="mont font-bold text-2xl text-center">
+              Ayyappadas NP
+            </h1>
           </div>
         </div>
       </div>
@@ -67,7 +75,7 @@ const History = () => {
           src="/historyEnd.png"
           className="w-full h-full absolute top-0 left-0 "
         />
-        <div className="h-5/6 w-[600px] bg-white/10 relative z-20">
+        <div className="h-5/6 w-[600px] bg-black/60 rounded-3xl text-white relative z-20">
           <h1 className="text-xl ya font-medium p-4 text-white">
             It all began with a casual conversation between Nobel and a friend
             from a different college who had formed a go-kart team. Fascinated

@@ -9,7 +9,7 @@ const Navbar = () => {
           alt="The logo in the navbar"
           className="w-32 h-full"
         />
-        <div className="flex items-center dm text-3xl text-white gap-10 px-6">
+        <div className="flex items-center mont text-3xl text-white gap-10 px-6">
           <Link to="/">
             <h1 className="hover:scale-105 hover:text-white/80">Home</h1>
           </Link>

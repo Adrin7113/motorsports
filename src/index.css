@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Ysabeau&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +10,16 @@
 
 .dm {
   font-family: "DM Sans", sans-serif;
+}
+
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bE {
+  backdrop-filter: blur(20px);
+}
+
+.wBE {
+  backdrop-filter: blur(5px);
 }
