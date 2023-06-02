@@ -9,7 +9,7 @@ const History = () => {
       className="min-h-screen"
     >
       {/* Collage */}
-      <div className="h-[800px] flex">
+      <div className="flex">
         <div
           id="carName"
           className="bg-black/70 h-[300px] w-full absolute top-80 z-[20] flex justify-center items-center transition-all ease-in-out opacity-0 duration-2000"
@@ -70,12 +70,9 @@ const History = () => {
       </div>
 
       {/* Footer */}
-      <div className="relative p-6 pt-44 flex items-end justify-between">
-        <img
-          src="/historyEnd.png"
-          className="w-full h-full absolute top-0 left-0 "
-        />
-        <div className="h-5/6 w-[600px] bg-black/60 rounded-3xl text-white relative z-20">
+      <div className=" h-[1200px] relative p-6 pt-44 flex items-center justify-between">
+        <img src="/historyEnd.png" className="w-full absolute top-0 left-0 " />
+        <div className="h-4/6 w-[600px] bg-black/60 rounded-3xl text-white relative z-20 flex flex-col justify-center">
           <h1 className="text-xl ya font-medium p-4 text-white">
             It all began with a casual conversation between Nobel and a friend
             from a different college who had formed a go-kart team. Fascinated

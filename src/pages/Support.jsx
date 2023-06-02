@@ -38,8 +38,8 @@ const Support = () => {
           <h1 className="text-3xl">Phone</h1>
         </div>
         <div className="text-3xl">
-          <h1>Laveena Wels: ????????</h1>
-          <h1>Malavika NR: ????????</h1>
+          <h1>Laveena Wels: +91 94952 11592</h1>
+          <h1>Malavika NR: +91 96052 91699</h1>
         </div>
         <div className="text-3xl">
           <h1>Our Address</h1>

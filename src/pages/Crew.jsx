@@ -3,9 +3,9 @@ const Crew = () => {
     <div className="min-h-screen ">
       {/* Team Intro */}
 
-      <div className="h-[1000px] relative flex items-end p-16">
-        <img src="/crew.png" className="w-full h-full absolute top-0 left-0" />
-        <div className="h-1/2 w-[350px] bg-black/60 rounded-3xl text-white relative z-20 flex flex-col justify-center">
+      <div className="h-[1100px] relative flex items-center p-16">
+        <img src="/crew.png" className="w-full  absolute top-0 left-0" />
+        <div className="h-1/2 w-[350px] bg-black/60 rounded-3xl text-white relative z-20 flex flex-col justify-center mt-80">
           <h1 className="text-3xl mont font-bold text-center">Meet The Crew</h1>
           <h1 className="text-xl mont p-4">
             Our crew consists of interdisciplinary students who are keen to put
